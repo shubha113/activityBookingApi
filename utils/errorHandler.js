@@ -3,5 +3,5 @@ class ErrorHandler extends Error{
         super(message);
         this.statusCode = statusCode;
     }
-};
+}; 
 export default ErrorHandler;
